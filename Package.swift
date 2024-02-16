@@ -2,9 +2,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "Libwally",
+    name: "LibWally",
     products: [
-        .library(name: "Libwally", targets: ["Libwally"])
+        .library(name: "LibWally", targets: ["LibWally"])
     ],
     dependencies: [
         .package(url: "https://github.com/Sjors/libwally-swift", .branch("master"))
